@@ -1,0 +1,20 @@
+# Secrets — never commit
+credentials.txt
+*.key
+*.pem
+*.jks
+*.keystore
+
+# Raw captures / dumps (contain session tokens, device ids)
+catch_full.txt
+cert.info
+docs/flows/
+*.mitm
+
+# Working client (contains device ids/tokens — kept local)
+client.py
+login.py
+
+# Python
+__pycache__/
+*.pyc
